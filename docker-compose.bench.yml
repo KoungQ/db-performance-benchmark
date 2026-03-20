@@ -1,0 +1,209 @@
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: bench-mysql
+    mem_limit: 1g
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: db_benchmark
+      MYSQL_USER: benchmark
+      MYSQL_PASSWORD: benchmark
+    ports:
+      - "3307:3306"
+    command: --innodb_buffer_pool_size=128M --sort_buffer_size=2M --max_connections=300
+    volumes:
+      - bench_mysql_data:/var/lib/mysql
+    networks:
+      - bench-net
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-proot"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  postgres:
+    image: postgres:16
+    container_name: bench-postgres
+    mem_limit: 1g
+    shm_size: "512mb"
+    environment:
+      POSTGRES_DB: db_benchmark
+      POSTGRES_USER: benchmark
+      POSTGRES_PASSWORD: benchmark
+    ports:
+      - "5433:5432"
+    command: postgres -c shared_buffers=128MB -c max_connections=300 -c work_mem=2MB
+    volumes:
+      - bench_postgres_data:/var/lib/postgresql/data
+    networks:
+      - bench-net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U benchmark -d db_benchmark"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  app-mysql:
+    build: .
+    container_name: bench-app-mysql
+    environment:
+      SPRING_PROFILES_ACTIVE: bench-mysql
+      BENCH_MYSQL_URL: jdbc:mysql://mysql:3306/db_benchmark
+      BENCH_MYSQL_USERNAME: benchmark
+      BENCH_MYSQL_PASSWORD: benchmark
+      BENCH_MONGO_URI: mongodb://benchmark:benchmark@mongo:27017/db_benchmark
+    ports:
+      - "8090:8080"
+    depends_on:
+      mysql:
+        condition: service_healthy
+    networks:
+      - bench-net
+
+  app-postgres:
+    build: .
+    container_name: bench-app-postgres
+    environment:
+      SPRING_PROFILES_ACTIVE: bench-postgres
+      BENCH_POSTGRES_URL: jdbc:postgresql://postgres:5432/db_benchmark
+      BENCH_POSTGRES_USERNAME: benchmark
+      BENCH_POSTGRES_PASSWORD: benchmark
+      BENCH_MONGO_URI: mongodb://benchmark:benchmark@mongo:27017/db_benchmark
+    ports:
+      - "8091:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - bench-net
+
+  mongo:
+    image: mongo:7
+    container_name: bench-mongo
+    profiles: ["mongo"]
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: benchmark
+      MONGO_INITDB_ROOT_PASSWORD: benchmark
+      MONGO_INITDB_DATABASE: db_benchmark
+    ports:
+      - "27018:27017"
+    volumes:
+      - bench_mongo_data:/data/db
+    networks:
+      - bench-net
+
+  mysqld-exporter:
+    image: prom/mysqld-exporter:v0.17.2
+    container_name: bench-mysqld-exporter
+    volumes:
+      - ./observability/mysqld-exporter/my.cnf:/etc/my.cnf:ro
+    command:
+      - --config.my-cnf=/etc/my.cnf
+    ports:
+      - "9104:9104"
+    depends_on:
+      - mysql
+    networks:
+      - bench-net
+
+  postgres-exporter:
+    image: prometheuscommunity/postgres-exporter:v0.16.0
+    container_name: bench-postgres-exporter
+    environment:
+      DATA_SOURCE_NAME: postgresql://benchmark:benchmark@postgres:5432/db_benchmark?sslmode=disable
+    ports:
+      - "9187:9187"
+    depends_on:
+      - postgres
+    networks:
+      - bench-net
+
+  mongodb-exporter:
+    image: percona/mongodb_exporter:0.40
+    container_name: bench-mongodb-exporter
+    profiles: ["mongo"]
+    command:
+      - --mongodb.uri=mongodb://benchmark:benchmark@mongo:27017/admin
+    ports:
+      - "9216:9216"
+    depends_on:
+      - mongo
+    networks:
+      - bench-net
+
+  prometheus:
+    image: prom/prometheus:v2.54.1
+    container_name: bench-prometheus
+    volumes:
+      - ./observability/prometheus/prometheus.bench.yml:/etc/prometheus/prometheus.yml:ro
+      - bench_prometheus_data:/prometheus
+    ports:
+      - "9091:9090"
+    command:
+      - --config.file=/etc/prometheus/prometheus.yml
+      - --storage.tsdb.path=/prometheus
+    networks:
+      - bench-net
+
+  pushgateway:
+    image: prom/pushgateway:v1.9.0
+    container_name: bench-pushgateway
+    ports:
+      - "19092:9091"
+    networks:
+      - bench-net
+
+  grafana:
+    image: grafana/grafana:11.2.0
+    container_name: bench-grafana
+    ports:
+      - "3001:3000"
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: admin
+      GF_USERS_ALLOW_SIGN_UP: "false"
+    volumes:
+      - ./observability/grafana/provisioning:/etc/grafana/provisioning:ro
+      - bench_grafana_data:/var/lib/grafana
+    depends_on:
+      - prometheus
+      - pushgateway
+    networks:
+      - bench-net
+
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:v0.49.1
+    container_name: bench-cadvisor
+    privileged: true
+    ports:
+      - "8081:8080"
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:rw
+      - /sys:/sys:ro
+      - /var/lib/docker:/var/lib/docker:ro
+    networks:
+      - bench-net
+
+  node-exporter:
+    image: prom/node-exporter:v1.8.2
+    container_name: bench-node-exporter
+    command:
+      - --path.rootfs=/host
+    ports:
+      - "9100:9100"
+    volumes:
+      - /:/host:ro
+    networks:
+      - bench-net
+
+volumes:
+  bench_mysql_data:
+  bench_postgres_data:
+  bench_mongo_data:
+  bench_prometheus_data:
+  bench_grafana_data:
+
+networks:
+  bench-net:
+    driver: bridge

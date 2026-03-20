@@ -1,0 +1,7 @@
+{
+  "dbTarget": "mysql-or-postgres",
+  "scenario": "read-heavy",
+  "repeat": 3,
+  "warmupMinutes": 5,
+  "mainRunMinutes": 15
+}

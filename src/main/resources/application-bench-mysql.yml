@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: ${BENCH_MYSQL_URL:jdbc:mysql://localhost:3306/db_benchmark}
+    username: ${BENCH_MYSQL_USERNAME:root}
+    password: ${BENCH_MYSQL_PASSWORD:}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: ${BENCH_DB_POOL_MAX:30}
+      minimum-idle: ${BENCH_DB_POOL_MIN:5}
+      connection-timeout: 5000
+
+  sql:
+    init:
+      schema-locations: classpath:sql/mysql/schema.sql
+      data-locations: classpath:sql/mysql/data.sql

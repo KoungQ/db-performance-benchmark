@@ -1,0 +1,3360 @@
+--- room-checklist-update chunk 1 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 13489
+number of failed transactions: 0 (0.000%)
+latency average = 3.676 ms
+initial connection time = 47.366 ms
+tps = 2720.707267 (without initial connection time)
+--- room-checklist-update chunk 2 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15078
+number of failed transactions: 0 (0.000%)
+latency average = 3.297 ms
+initial connection time = 41.317 ms
+tps = 3032.896609 (without initial connection time)
+--- room-checklist-update chunk 3 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 17194
+number of failed transactions: 0 (0.000%)
+latency average = 2.893 ms
+initial connection time = 28.484 ms
+tps = 3456.113053 (without initial connection time)
+--- room-checklist-update chunk 4 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 16608
+number of failed transactions: 0 (0.000%)
+latency average = 2.991 ms
+initial connection time = 36.030 ms
+tps = 3342.923843 (without initial connection time)
+--- room-checklist-update chunk 5 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18598
+number of failed transactions: 0 (0.000%)
+latency average = 2.671 ms
+initial connection time = 40.442 ms
+tps = 3744.438357 (without initial connection time)
+--- room-checklist-update chunk 6 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 14245
+number of failed transactions: 0 (0.000%)
+latency average = 3.479 ms
+initial connection time = 47.428 ms
+tps = 2874.487506 (without initial connection time)
+--- room-checklist-update chunk 7 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 13238
+number of failed transactions: 0 (0.000%)
+latency average = 4.105 ms
+initial connection time = 32.927 ms
+tps = 2435.984560 (without initial connection time)
+--- room-checklist-update chunk 8 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 16647
+number of failed transactions: 0 (0.000%)
+latency average = 2.990 ms
+initial connection time = 29.429 ms
+tps = 3344.533344 (without initial connection time)
+--- room-checklist-update chunk 9 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15713
+number of failed transactions: 0 (0.000%)
+latency average = 3.167 ms
+initial connection time = 33.062 ms
+tps = 3157.690603 (without initial connection time)
+--- room-checklist-update chunk 10 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 13065
+number of failed transactions: 0 (0.000%)
+latency average = 3.816 ms
+initial connection time = 30.172 ms
+tps = 2620.501973 (without initial connection time)
+--- room-checklist-update chunk 11 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 19946
+number of failed transactions: 0 (0.000%)
+latency average = 2.493 ms
+initial connection time = 33.685 ms
+tps = 4011.387788 (without initial connection time)
+--- room-checklist-update chunk 12 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 11675
+number of failed transactions: 0 (0.000%)
+latency average = 4.270 ms
+initial connection time = 34.838 ms
+tps = 2341.776633 (without initial connection time)
+--- room-checklist-update chunk 13 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 16918
+number of failed transactions: 0 (0.000%)
+latency average = 2.942 ms
+initial connection time = 31.604 ms
+tps = 3399.403145 (without initial connection time)
+--- room-checklist-update chunk 14 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 16770
+number of failed transactions: 0 (0.000%)
+latency average = 2.966 ms
+initial connection time = 32.932 ms
+tps = 3371.700077 (without initial connection time)
+--- room-checklist-update chunk 15 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 14541
+number of failed transactions: 0 (0.000%)
+latency average = 3.420 ms
+initial connection time = 38.788 ms
+tps = 2923.922516 (without initial connection time)
+--- room-checklist-update chunk 16 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 14018
+number of failed transactions: 0 (0.000%)
+latency average = 3.551 ms
+initial connection time = 32.423 ms
+tps = 2816.055979 (without initial connection time)
+--- room-checklist-update chunk 17 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 16724
+number of failed transactions: 0 (0.000%)
+latency average = 2.977 ms
+initial connection time = 29.710 ms
+tps = 3359.526822 (without initial connection time)
+--- room-checklist-update chunk 18 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 14261
+number of failed transactions: 0 (0.000%)
+latency average = 3.493 ms
+initial connection time = 29.647 ms
+tps = 2862.634877 (without initial connection time)
+--- room-checklist-update chunk 19 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 17828
+number of failed transactions: 0 (0.000%)
+latency average = 2.789 ms
+initial connection time = 35.683 ms
+tps = 3585.678365 (without initial connection time)
+--- room-checklist-update chunk 20 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 13850
+number of failed transactions: 0 (0.000%)
+latency average = 3.592 ms
+initial connection time = 42.333 ms
+tps = 2784.196619 (without initial connection time)
+--- room-checklist-update chunk 21 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 13411
+number of failed transactions: 0 (0.000%)
+latency average = 3.709 ms
+initial connection time = 30.660 ms
+tps = 2696.210047 (without initial connection time)
+--- room-checklist-update chunk 22 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 19152
+number of failed transactions: 0 (0.000%)
+latency average = 2.596 ms
+initial connection time = 33.515 ms
+tps = 3851.403242 (without initial connection time)
+--- room-checklist-update chunk 23 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18509
+number of failed transactions: 0 (0.000%)
+latency average = 2.686 ms
+initial connection time = 33.072 ms
+tps = 3722.439438 (without initial connection time)
+--- room-checklist-update chunk 24 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 14076
+number of failed transactions: 0 (0.000%)
+latency average = 3.948 ms
+initial connection time = 32.269 ms
+tps = 2533.025973 (without initial connection time)
+--- room-checklist-update chunk 25 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 17618
+number of failed transactions: 0 (0.000%)
+latency average = 2.824 ms
+initial connection time = 30.748 ms
+tps = 3541.270230 (without initial connection time)
+--- room-checklist-update chunk 26 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 17197
+number of failed transactions: 0 (0.000%)
+latency average = 2.893 ms
+initial connection time = 34.603 ms
+tps = 3456.902991 (without initial connection time)
+--- room-checklist-update chunk 27 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15205
+number of failed transactions: 0 (0.000%)
+latency average = 3.497 ms
+initial connection time = 32.355 ms
+tps = 2859.422120 (without initial connection time)
+--- room-checklist-update chunk 28 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18270
+number of failed transactions: 0 (0.000%)
+latency average = 2.723 ms
+initial connection time = 31.065 ms
+tps = 3672.730928 (without initial connection time)
+--- room-checklist-update chunk 29 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18711
+number of failed transactions: 0 (0.000%)
+latency average = 2.667 ms
+initial connection time = 26.944 ms
+tps = 3748.901536 (without initial connection time)
+--- room-checklist-update chunk 30 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 13118
+number of failed transactions: 0 (0.000%)
+latency average = 3.932 ms
+initial connection time = 37.329 ms
+tps = 2543.352646 (without initial connection time)
+--- room-checklist-update chunk 31 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15937
+number of failed transactions: 0 (0.000%)
+latency average = 3.125 ms
+initial connection time = 31.880 ms
+tps = 3200.070359 (without initial connection time)
+--- room-checklist-update chunk 32 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 12992
+number of failed transactions: 0 (0.000%)
+latency average = 3.828 ms
+initial connection time = 29.844 ms
+tps = 2612.598953 (without initial connection time)
+--- room-checklist-update chunk 33 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 13003
+number of failed transactions: 0 (0.000%)
+latency average = 4.212 ms
+initial connection time = 39.459 ms
+tps = 2374.073070 (without initial connection time)
+--- room-checklist-update chunk 34 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 12890
+number of failed transactions: 0 (0.000%)
+latency average = 3.907 ms
+initial connection time = 22.546 ms
+tps = 2559.704766 (without initial connection time)
+--- room-checklist-update chunk 35 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15843
+number of failed transactions: 0 (0.000%)
+latency average = 3.144 ms
+initial connection time = 25.284 ms
+tps = 3180.267766 (without initial connection time)
+--- room-checklist-update chunk 36 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18453
+number of failed transactions: 0 (0.000%)
+latency average = 2.702 ms
+initial connection time = 25.542 ms
+tps = 3701.064389 (without initial connection time)
+--- room-checklist-update chunk 37 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 12014
+number of failed transactions: 0 (0.000%)
+latency average = 4.148 ms
+initial connection time = 26.178 ms
+tps = 2410.687770 (without initial connection time)
+--- room-checklist-update chunk 38 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 8659
+number of failed transactions: 0 (0.000%)
+latency average = 5.726 ms
+initial connection time = 42.517 ms
+tps = 1746.292833 (without initial connection time)
+--- room-checklist-update chunk 39 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 14776
+number of failed transactions: 0 (0.000%)
+latency average = 3.370 ms
+initial connection time = 27.978 ms
+tps = 2967.309590 (without initial connection time)
+--- room-checklist-update chunk 40 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 10745
+number of failed transactions: 0 (0.000%)
+latency average = 4.631 ms
+initial connection time = 29.055 ms
+tps = 2159.295955 (without initial connection time)
+--- room-checklist-update chunk 41 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15572
+number of failed transactions: 0 (0.000%)
+latency average = 3.194 ms
+initial connection time = 38.080 ms
+tps = 3130.578202 (without initial connection time)
+--- room-checklist-update chunk 42 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 14795
+number of failed transactions: 0 (0.000%)
+latency average = 3.361 ms
+initial connection time = 30.596 ms
+tps = 2975.563773 (without initial connection time)
+--- room-checklist-update chunk 43 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 16797
+number of failed transactions: 0 (0.000%)
+latency average = 2.959 ms
+initial connection time = 32.221 ms
+tps = 3379.805916 (without initial connection time)
+--- room-checklist-update chunk 44 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18294
+number of failed transactions: 0 (0.000%)
+latency average = 2.722 ms
+initial connection time = 30.102 ms
+tps = 3673.981627 (without initial connection time)
+--- room-checklist-update chunk 45 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 14054
+number of failed transactions: 0 (0.000%)
+latency average = 3.536 ms
+initial connection time = 35.922 ms
+tps = 2827.748393 (without initial connection time)
+--- room-checklist-update chunk 46 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15050
+number of failed transactions: 0 (0.000%)
+latency average = 3.313 ms
+initial connection time = 19.858 ms
+tps = 3017.962593 (without initial connection time)
+--- room-checklist-update chunk 47 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 13653
+number of failed transactions: 0 (0.000%)
+latency average = 3.641 ms
+initial connection time = 32.633 ms
+tps = 2746.397277 (without initial connection time)
+--- room-checklist-update chunk 48 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 11918
+number of failed transactions: 0 (0.000%)
+latency average = 4.750 ms
+initial connection time = 30.285 ms
+tps = 2105.292909 (without initial connection time)
+--- room-checklist-update chunk 49 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 14756
+number of failed transactions: 0 (0.000%)
+latency average = 3.373 ms
+initial connection time = 28.740 ms
+tps = 2964.504697 (without initial connection time)
+--- room-checklist-update chunk 50 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15707
+number of failed transactions: 0 (0.000%)
+latency average = 3.164 ms
+initial connection time = 31.699 ms
+tps = 3160.257255 (without initial connection time)
+--- room-checklist-update chunk 51 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 13667
+number of failed transactions: 0 (0.000%)
+latency average = 4.123 ms
+initial connection time = 39.126 ms
+tps = 2425.354726 (without initial connection time)
+--- room-checklist-update chunk 52 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 20794
+number of failed transactions: 0 (0.000%)
+latency average = 2.395 ms
+initial connection time = 25.749 ms
+tps = 4175.091206 (without initial connection time)
+--- room-checklist-update chunk 53 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18641
+number of failed transactions: 0 (0.000%)
+latency average = 2.663 ms
+initial connection time = 38.224 ms
+tps = 3754.489688 (without initial connection time)
+--- room-checklist-update chunk 54 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15555
+number of failed transactions: 0 (0.000%)
+latency average = 3.224 ms
+initial connection time = 30.404 ms
+tps = 3102.112448 (without initial connection time)
+--- room-checklist-update chunk 55 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15238
+number of failed transactions: 0 (0.000%)
+latency average = 3.262 ms
+initial connection time = 41.818 ms
+tps = 3065.836207 (without initial connection time)
+--- room-checklist-update chunk 56 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 12409
+number of failed transactions: 0 (0.000%)
+latency average = 4.012 ms
+initial connection time = 32.441 ms
+tps = 2492.582413 (without initial connection time)
+--- room-checklist-update chunk 57 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 7019
+number of failed transactions: 0 (0.000%)
+latency average = 7.017 ms
+initial connection time = 90.502 ms
+tps = 1425.167248 (without initial connection time)
+--- room-checklist-update chunk 58 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 5618
+number of failed transactions: 0 (0.000%)
+latency average = 8.885 ms
+initial connection time = 30.653 ms
+tps = 1125.485413 (without initial connection time)
+--- room-checklist-update chunk 59 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 6066
+number of failed transactions: 0 (0.000%)
+latency average = 8.367 ms
+initial connection time = 45.935 ms
+tps = 1195.149655 (without initial connection time)
+--- room-checklist-update chunk 60 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 1687
+number of failed transactions: 0 (0.000%)
+latency average = 29.489 ms
+initial connection time = 107.955 ms
+tps = 339.107678 (without initial connection time)
+--- room-checklist-update chunk 61 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 5653
+number of failed transactions: 0 (0.000%)
+latency average = 8.806 ms
+initial connection time = 122.773 ms
+tps = 1135.634723 (without initial connection time)
+--- room-checklist-update chunk 62 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 20245
+number of failed transactions: 0 (0.000%)
+latency average = 2.446 ms
+initial connection time = 59.776 ms
+tps = 4088.807815 (without initial connection time)
+--- room-checklist-update chunk 63 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 22995
+number of failed transactions: 0 (0.000%)
+latency average = 2.164 ms
+initial connection time = 37.525 ms
+tps = 4621.400854 (without initial connection time)
+--- room-checklist-update chunk 64 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 28070
+number of failed transactions: 0 (0.000%)
+latency average = 1.764 ms
+initial connection time = 51.806 ms
+tps = 5668.182153 (without initial connection time)
+--- room-checklist-update chunk 65 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 24811
+number of failed transactions: 0 (0.000%)
+latency average = 2.000 ms
+initial connection time = 42.892 ms
+tps = 5001.110641 (without initial connection time)
+--- room-checklist-update chunk 66 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 28681
+number of failed transactions: 0 (0.000%)
+latency average = 1.730 ms
+initial connection time = 44.420 ms
+tps = 5780.981797 (without initial connection time)
+--- room-checklist-update chunk 67 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 25748
+number of failed transactions: 0 (0.000%)
+latency average = 1.928 ms
+initial connection time = 43.908 ms
+tps = 5187.229198 (without initial connection time)
+--- room-checklist-update chunk 68 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 24310
+number of failed transactions: 0 (0.000%)
+latency average = 2.040 ms
+initial connection time = 43.863 ms
+tps = 4902.162436 (without initial connection time)
+--- room-checklist-update chunk 69 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 19017
+number of failed transactions: 0 (0.000%)
+latency average = 2.596 ms
+initial connection time = 65.632 ms
+tps = 3852.145824 (without initial connection time)
+--- room-checklist-update chunk 70 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 24123
+number of failed transactions: 0 (0.000%)
+latency average = 2.056 ms
+initial connection time = 48.144 ms
+tps = 4864.667346 (without initial connection time)
+--- room-checklist-update chunk 71 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 28211
+number of failed transactions: 0 (0.000%)
+latency average = 1.759 ms
+initial connection time = 44.680 ms
+tps = 5686.650271 (without initial connection time)
+--- room-checklist-update chunk 72 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 29346
+number of failed transactions: 0 (0.000%)
+latency average = 1.691 ms
+initial connection time = 45.479 ms
+tps = 5912.206573 (without initial connection time)
+--- room-checklist-update chunk 73 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 14130
+number of failed transactions: 0 (0.000%)
+latency average = 3.512 ms
+initial connection time = 43.640 ms
+tps = 2847.407378 (without initial connection time)
+--- room-checklist-update chunk 74 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 20279
+number of failed transactions: 0 (0.000%)
+latency average = 2.449 ms
+initial connection time = 38.093 ms
+tps = 4083.093027 (without initial connection time)
+--- room-checklist-update chunk 75 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 24688
+number of failed transactions: 0 (0.000%)
+latency average = 2.014 ms
+initial connection time = 35.781 ms
+tps = 4965.939624 (without initial connection time)
+--- room-checklist-update chunk 76 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 24953
+number of failed transactions: 0 (0.000%)
+latency average = 1.988 ms
+initial connection time = 46.715 ms
+tps = 5029.671494 (without initial connection time)
+--- room-checklist-update chunk 77 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 24001
+number of failed transactions: 0 (0.000%)
+latency average = 2.071 ms
+initial connection time = 36.851 ms
+tps = 4828.088002 (without initial connection time)
+--- room-checklist-update chunk 78 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 29302
+number of failed transactions: 0 (0.000%)
+latency average = 1.695 ms
+initial connection time = 45.728 ms
+tps = 5900.118417 (without initial connection time)
+--- room-checklist-update chunk 79 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 29276
+number of failed transactions: 0 (0.000%)
+latency average = 1.694 ms
+initial connection time = 42.927 ms
+tps = 5902.654985 (without initial connection time)
+--- room-checklist-update chunk 80 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 29950
+number of failed transactions: 0 (0.000%)
+latency average = 1.659 ms
+initial connection time = 42.028 ms
+tps = 6028.028420 (without initial connection time)
+--- room-checklist-update chunk 81 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 31566
+number of failed transactions: 0 (0.000%)
+latency average = 1.570 ms
+initial connection time = 48.849 ms
+tps = 6370.164560 (without initial connection time)
+--- room-checklist-update chunk 82 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 29976
+number of failed transactions: 0 (0.000%)
+latency average = 1.653 ms
+initial connection time = 48.955 ms
+tps = 6049.281789 (without initial connection time)
+--- room-checklist-update chunk 83 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 29531
+number of failed transactions: 0 (0.000%)
+latency average = 1.682 ms
+initial connection time = 45.588 ms
+tps = 5945.310631 (without initial connection time)
+--- room-checklist-update chunk 84 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 23485
+number of failed transactions: 0 (0.000%)
+latency average = 2.110 ms
+initial connection time = 46.185 ms
+tps = 4738.382187 (without initial connection time)
+--- room-checklist-update chunk 85 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 24195
+number of failed transactions: 0 (0.000%)
+latency average = 2.055 ms
+initial connection time = 36.476 ms
+tps = 4866.376286 (without initial connection time)
+--- room-checklist-update chunk 86 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 23505
+number of failed transactions: 0 (0.000%)
+latency average = 2.135 ms
+initial connection time = 33.373 ms
+tps = 4684.476913 (without initial connection time)
+--- room-checklist-update chunk 87 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18367
+number of failed transactions: 0 (0.000%)
+latency average = 2.711 ms
+initial connection time = 27.234 ms
+tps = 3689.257165 (without initial connection time)
+--- room-checklist-update chunk 88 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 14694
+number of failed transactions: 0 (0.000%)
+latency average = 3.537 ms
+initial connection time = 43.674 ms
+tps = 2827.320451 (without initial connection time)
+--- room-checklist-update chunk 89 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 9784
+number of failed transactions: 0 (0.000%)
+latency average = 5.089 ms
+initial connection time = 25.609 ms
+tps = 1965.205183 (without initial connection time)
+--- room-checklist-update chunk 90 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 19324
+number of failed transactions: 0 (0.000%)
+latency average = 2.575 ms
+initial connection time = 30.369 ms
+tps = 3882.824850 (without initial connection time)
+--- room-checklist-update chunk 91 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18300
+number of failed transactions: 0 (0.000%)
+latency average = 2.714 ms
+initial connection time = 34.847 ms
+tps = 3684.973804 (without initial connection time)
+--- room-checklist-update chunk 92 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 13360
+number of failed transactions: 0 (0.000%)
+latency average = 3.720 ms
+initial connection time = 34.378 ms
+tps = 2688.197465 (without initial connection time)
+--- room-checklist-update chunk 93 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18511
+number of failed transactions: 0 (0.000%)
+latency average = 2.820 ms
+initial connection time = 34.187 ms
+tps = 3545.615005 (without initial connection time)
+--- room-checklist-update chunk 94 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 17546
+number of failed transactions: 0 (0.000%)
+latency average = 3.053 ms
+initial connection time = 29.285 ms
+tps = 3275.555907 (without initial connection time)
+--- room-checklist-update chunk 95 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18209
+number of failed transactions: 0 (0.000%)
+latency average = 2.742 ms
+initial connection time = 17.499 ms
+tps = 3647.516388 (without initial connection time)
+--- room-checklist-update chunk 96 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 12135
+number of failed transactions: 0 (0.000%)
+latency average = 4.147 ms
+initial connection time = 26.813 ms
+tps = 2411.599525 (without initial connection time)
+--- room-checklist-update chunk 97 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 13837
+number of failed transactions: 0 (0.000%)
+latency average = 3.599 ms
+initial connection time = 28.869 ms
+tps = 2778.475559 (without initial connection time)
+--- room-checklist-update chunk 98 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18581
+number of failed transactions: 0 (0.000%)
+latency average = 2.673 ms
+initial connection time = 36.994 ms
+tps = 3740.700089 (without initial connection time)
+--- room-checklist-update chunk 99 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 22361
+number of failed transactions: 0 (0.000%)
+latency average = 2.223 ms
+initial connection time = 32.903 ms
+tps = 4497.533708 (without initial connection time)
+--- room-checklist-update chunk 100 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 20854
+number of failed transactions: 0 (0.000%)
+latency average = 2.382 ms
+initial connection time = 41.988 ms
+tps = 4198.592161 (without initial connection time)
+--- room-checklist-update chunk 101 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 12505
+number of failed transactions: 0 (0.000%)
+latency average = 3.975 ms
+initial connection time = 35.789 ms
+tps = 2515.599533 (without initial connection time)
+--- room-checklist-update chunk 102 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 16422
+number of failed transactions: 0 (0.000%)
+latency average = 3.027 ms
+initial connection time = 32.782 ms
+tps = 3303.247671 (without initial connection time)
+--- room-checklist-update chunk 103 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18482
+number of failed transactions: 0 (0.000%)
+latency average = 2.691 ms
+initial connection time = 32.545 ms
+tps = 3716.243252 (without initial connection time)
+--- room-checklist-update chunk 104 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 19015
+number of failed transactions: 0 (0.000%)
+latency average = 2.614 ms
+initial connection time = 38.177 ms
+tps = 3825.954965 (without initial connection time)
+--- room-checklist-update chunk 105 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 13347
+number of failed transactions: 0 (0.000%)
+latency average = 3.728 ms
+initial connection time = 33.798 ms
+tps = 2682.283544 (without initial connection time)
+--- room-checklist-update chunk 106 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 13263
+number of failed transactions: 0 (0.000%)
+latency average = 3.741 ms
+initial connection time = 39.306 ms
+tps = 2673.135023 (without initial connection time)
+--- room-checklist-update chunk 107 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 21971
+number of failed transactions: 0 (0.000%)
+latency average = 2.263 ms
+initial connection time = 29.082 ms
+tps = 4418.699924 (without initial connection time)
+--- room-checklist-update chunk 108 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18154
+number of failed transactions: 0 (0.000%)
+latency average = 2.737 ms
+initial connection time = 35.530 ms
+tps = 3653.588160 (without initial connection time)
+--- room-checklist-update chunk 109 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 12732
+number of failed transactions: 0 (0.000%)
+latency average = 3.903 ms
+initial connection time = 33.849 ms
+tps = 2562.328459 (without initial connection time)
+--- room-checklist-update chunk 110 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 14878
+number of failed transactions: 0 (0.000%)
+latency average = 3.335 ms
+initial connection time = 41.373 ms
+tps = 2998.181705 (without initial connection time)
+--- room-checklist-update chunk 111 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 12922
+number of failed transactions: 0 (0.000%)
+latency average = 3.858 ms
+initial connection time = 21.548 ms
+tps = 2591.847414 (without initial connection time)
+--- room-checklist-update chunk 112 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18433
+number of failed transactions: 0 (0.000%)
+latency average = 2.704 ms
+initial connection time = 29.019 ms
+tps = 3698.348173 (without initial connection time)
+--- room-checklist-update chunk 113 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 12565
+number of failed transactions: 0 (0.000%)
+latency average = 3.964 ms
+initial connection time = 29.847 ms
+tps = 2522.864906 (without initial connection time)
+--- room-checklist-update chunk 114 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 13210
+number of failed transactions: 0 (0.000%)
+latency average = 3.758 ms
+initial connection time = 39.031 ms
+tps = 2661.126045 (without initial connection time)
+--- room-checklist-update chunk 115 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15895
+number of failed transactions: 0 (0.000%)
+latency average = 3.126 ms
+initial connection time = 37.207 ms
+tps = 3199.041998 (without initial connection time)
+--- room-checklist-update chunk 116 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 13808
+number of failed transactions: 0 (0.000%)
+latency average = 3.593 ms
+initial connection time = 42.359 ms
+tps = 2783.285131 (without initial connection time)
+--- room-checklist-update chunk 117 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 17549
+number of failed transactions: 0 (0.000%)
+latency average = 2.832 ms
+initial connection time = 32.867 ms
+tps = 3530.490794 (without initial connection time)
+--- room-checklist-update chunk 118 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18980
+number of failed transactions: 0 (0.000%)
+latency average = 2.618 ms
+initial connection time = 35.714 ms
+tps = 3819.024133 (without initial connection time)
+--- room-checklist-update chunk 119 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15368
+number of failed transactions: 0 (0.000%)
+latency average = 3.248 ms
+initial connection time = 30.837 ms
+tps = 3078.782823 (without initial connection time)
+--- room-checklist-update chunk 120 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 19260
+number of failed transactions: 0 (0.000%)
+latency average = 2.799 ms
+initial connection time = 30.204 ms
+tps = 3573.037923 (without initial connection time)
+--- room-checklist-update chunk 121 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15473
+number of failed transactions: 0 (0.000%)
+latency average = 3.217 ms
+initial connection time = 27.076 ms
+tps = 3108.409420 (without initial connection time)
+--- room-checklist-update chunk 122 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 16517
+number of failed transactions: 0 (0.000%)
+latency average = 3.016 ms
+initial connection time = 27.331 ms
+tps = 3315.544841 (without initial connection time)
+--- room-checklist-update chunk 123 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 14126
+number of failed transactions: 0 (0.000%)
+latency average = 3.646 ms
+initial connection time = 29.784 ms
+tps = 2742.774684 (without initial connection time)
+--- room-checklist-update chunk 124 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 16842
+number of failed transactions: 0 (0.000%)
+latency average = 2.951 ms
+initial connection time = 33.771 ms
+tps = 3388.184967 (without initial connection time)
+--- room-checklist-update chunk 125 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18637
+number of failed transactions: 0 (0.000%)
+latency average = 2.683 ms
+initial connection time = 31.670 ms
+tps = 3727.608001 (without initial connection time)
+--- room-checklist-update chunk 126 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18351
+number of failed transactions: 0 (0.000%)
+latency average = 2.722 ms
+initial connection time = 35.078 ms
+tps = 3673.637055 (without initial connection time)
+--- room-checklist-update chunk 127 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 21719
+number of failed transactions: 0 (0.000%)
+latency average = 2.291 ms
+initial connection time = 32.931 ms
+tps = 4365.685180 (without initial connection time)
+--- room-checklist-update chunk 128 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 17167
+number of failed transactions: 0 (0.000%)
+latency average = 2.901 ms
+initial connection time = 30.196 ms
+tps = 3447.412352 (without initial connection time)
+--- room-checklist-update chunk 129 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 20525
+number of failed transactions: 0 (0.000%)
+latency average = 2.428 ms
+initial connection time = 28.302 ms
+tps = 4119.150104 (without initial connection time)
+--- room-checklist-update chunk 130 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15677
+number of failed transactions: 0 (0.000%)
+latency average = 3.214 ms
+initial connection time = 32.020 ms
+tps = 3111.060926 (without initial connection time)
+--- room-checklist-update chunk 131 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 17579
+number of failed transactions: 0 (0.000%)
+latency average = 2.829 ms
+initial connection time = 32.500 ms
+tps = 3535.203317 (without initial connection time)
+--- room-checklist-update chunk 132 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 17539
+number of failed transactions: 0 (0.000%)
+latency average = 2.837 ms
+initial connection time = 32.522 ms
+tps = 3524.758317 (without initial connection time)
+--- room-checklist-update chunk 133 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18812
+number of failed transactions: 0 (0.000%)
+latency average = 2.648 ms
+initial connection time = 31.956 ms
+tps = 3777.095166 (without initial connection time)
+--- room-checklist-update chunk 134 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 11433
+number of failed transactions: 0 (0.000%)
+latency average = 4.425 ms
+initial connection time = 25.605 ms
+tps = 2259.635320 (without initial connection time)
+--- room-checklist-update chunk 135 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15872
+number of failed transactions: 0 (0.000%)
+latency average = 3.133 ms
+initial connection time = 33.402 ms
+tps = 3192.139999 (without initial connection time)
+--- room-checklist-update chunk 136 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 16537
+number of failed transactions: 0 (0.000%)
+latency average = 3.008 ms
+initial connection time = 32.011 ms
+tps = 3324.198505 (without initial connection time)
+--- room-checklist-update chunk 137 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 13297
+number of failed transactions: 0 (0.000%)
+latency average = 3.739 ms
+initial connection time = 29.888 ms
+tps = 2674.373281 (without initial connection time)
+--- room-checklist-update chunk 138 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18623
+number of failed transactions: 0 (0.000%)
+latency average = 2.682 ms
+initial connection time = 28.216 ms
+tps = 3728.829985 (without initial connection time)
+--- room-checklist-update chunk 139 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 16427
+number of failed transactions: 0 (0.000%)
+latency average = 3.029 ms
+initial connection time = 30.704 ms
+tps = 3301.961317 (without initial connection time)
+--- room-checklist-update chunk 140 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 14162
+number of failed transactions: 0 (0.000%)
+latency average = 3.609 ms
+initial connection time = 26.028 ms
+tps = 2770.906925 (without initial connection time)
+--- room-checklist-update chunk 141 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 17848
+number of failed transactions: 0 (0.000%)
+latency average = 2.788 ms
+initial connection time = 27.359 ms
+tps = 3587.372561 (without initial connection time)
+--- room-checklist-update chunk 142 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18531
+number of failed transactions: 0 (0.000%)
+latency average = 2.682 ms
+initial connection time = 31.080 ms
+tps = 3728.280368 (without initial connection time)
+--- room-checklist-update chunk 143 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 16356
+number of failed transactions: 0 (0.000%)
+latency average = 3.448 ms
+initial connection time = 31.694 ms
+tps = 2900.568799 (without initial connection time)
+--- room-checklist-update chunk 144 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 20484
+number of failed transactions: 0 (0.000%)
+latency average = 2.429 ms
+initial connection time = 29.980 ms
+tps = 4116.263340 (without initial connection time)
+--- room-checklist-update chunk 145 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18124
+number of failed transactions: 0 (0.000%)
+latency average = 2.744 ms
+initial connection time = 32.701 ms
+tps = 3644.354879 (without initial connection time)
+--- room-checklist-update chunk 146 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 14895
+number of failed transactions: 0 (0.000%)
+latency average = 3.372 ms
+initial connection time = 30.001 ms
+tps = 2965.858873 (without initial connection time)
+--- room-checklist-update chunk 147 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 11117
+number of failed transactions: 0 (0.000%)
+latency average = 4.607 ms
+initial connection time = 44.392 ms
+tps = 2170.783677 (without initial connection time)
+--- room-checklist-update chunk 148 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 13735
+number of failed transactions: 0 (0.000%)
+latency average = 3.619 ms
+initial connection time = 34.049 ms
+tps = 2763.321837 (without initial connection time)
+--- room-checklist-update chunk 149 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 17343
+number of failed transactions: 0 (0.000%)
+latency average = 2.868 ms
+initial connection time = 32.852 ms
+tps = 3486.197628 (without initial connection time)
+--- room-checklist-update chunk 150 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15918
+number of failed transactions: 0 (0.000%)
+latency average = 3.124 ms
+initial connection time = 31.877 ms
+tps = 3201.388193 (without initial connection time)
+--- room-checklist-update chunk 151 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 14550
+number of failed transactions: 0 (0.000%)
+latency average = 3.543 ms
+initial connection time = 28.106 ms
+tps = 2822.862196 (without initial connection time)
+--- room-checklist-update chunk 152 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 19673
+number of failed transactions: 0 (0.000%)
+latency average = 2.533 ms
+initial connection time = 23.506 ms
+tps = 3948.423430 (without initial connection time)
+--- room-checklist-update chunk 153 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18288
+number of failed transactions: 0 (0.000%)
+latency average = 2.718 ms
+initial connection time = 32.729 ms
+tps = 3679.780243 (without initial connection time)
+--- room-checklist-update chunk 154 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 13993
+number of failed transactions: 0 (0.000%)
+latency average = 3.705 ms
+initial connection time = 35.753 ms
+tps = 2699.304986 (without initial connection time)
+--- room-checklist-update chunk 155 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 17703
+number of failed transactions: 0 (0.000%)
+latency average = 2.808 ms
+initial connection time = 32.577 ms
+tps = 3560.673654 (without initial connection time)
+--- room-checklist-update chunk 156 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 19499
+number of failed transactions: 0 (0.000%)
+latency average = 2.584 ms
+initial connection time = 30.224 ms
+tps = 3870.645524 (without initial connection time)
+--- room-checklist-update chunk 157 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 13387
+number of failed transactions: 0 (0.000%)
+latency average = 4.188 ms
+initial connection time = 37.247 ms
+tps = 2387.918385 (without initial connection time)
+--- room-checklist-update chunk 158 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 12641
+number of failed transactions: 0 (0.000%)
+latency average = 3.941 ms
+initial connection time = 26.855 ms
+tps = 2537.622191 (without initial connection time)
+--- room-checklist-update chunk 159 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 12609
+number of failed transactions: 0 (0.000%)
+latency average = 3.946 ms
+initial connection time = 28.895 ms
+tps = 2533.979827 (without initial connection time)
+--- room-checklist-update chunk 160 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 16078
+number of failed transactions: 0 (0.000%)
+latency average = 3.092 ms
+initial connection time = 31.426 ms
+tps = 3234.276654 (without initial connection time)
+--- room-checklist-update chunk 161 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15275
+number of failed transactions: 0 (0.000%)
+latency average = 3.672 ms
+initial connection time = 29.041 ms
+tps = 2723.029970 (without initial connection time)
+--- room-checklist-update chunk 162 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 14580
+number of failed transactions: 0 (0.000%)
+latency average = 3.409 ms
+initial connection time = 34.673 ms
+tps = 2933.361393 (without initial connection time)
+--- room-checklist-update chunk 163 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 16875
+number of failed transactions: 0 (0.000%)
+latency average = 2.950 ms
+initial connection time = 31.213 ms
+tps = 3390.353555 (without initial connection time)
+--- room-checklist-update chunk 164 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 16728
+number of failed transactions: 0 (0.000%)
+latency average = 2.972 ms
+initial connection time = 31.104 ms
+tps = 3365.170485 (without initial connection time)
+--- room-checklist-update chunk 165 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 16093
+number of failed transactions: 0 (0.000%)
+latency average = 3.149 ms
+initial connection time = 29.930 ms
+tps = 3175.446946 (without initial connection time)
+--- room-checklist-update chunk 166 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 19152
+number of failed transactions: 0 (0.000%)
+latency average = 2.595 ms
+initial connection time = 31.270 ms
+tps = 3853.281557 (without initial connection time)
+--- room-checklist-update chunk 167 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18215
+number of failed transactions: 0 (0.000%)
+latency average = 2.728 ms
+initial connection time = 34.285 ms
+tps = 3665.654478 (without initial connection time)
+--- room-checklist-update chunk 168 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 14823
+number of failed transactions: 0 (0.000%)
+latency average = 3.694 ms
+initial connection time = 33.972 ms
+tps = 2706.885548 (without initial connection time)
+--- room-checklist-update chunk 169 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 19484
+number of failed transactions: 0 (0.000%)
+latency average = 2.552 ms
+initial connection time = 31.235 ms
+tps = 3918.090906 (without initial connection time)
+--- room-checklist-update chunk 170 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 16731
+number of failed transactions: 0 (0.000%)
+latency average = 2.971 ms
+initial connection time = 33.798 ms
+tps = 3366.364523 (without initial connection time)
+--- room-checklist-update chunk 171 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15422
+number of failed transactions: 0 (0.000%)
+latency average = 3.542 ms
+initial connection time = 29.489 ms
+tps = 2822.938323 (without initial connection time)
+--- room-checklist-update chunk 172 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15376
+number of failed transactions: 0 (0.000%)
+latency average = 3.237 ms
+initial connection time = 28.274 ms
+tps = 3089.359772 (without initial connection time)
+--- room-checklist-update chunk 173 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 13868
+number of failed transactions: 0 (0.000%)
+latency average = 3.588 ms
+initial connection time = 30.623 ms
+tps = 2787.402660 (without initial connection time)
+--- room-checklist-update chunk 174 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 14409
+number of failed transactions: 0 (0.000%)
+latency average = 3.645 ms
+initial connection time = 33.662 ms
+tps = 2743.319430 (without initial connection time)
+--- room-checklist-update chunk 175 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18931
+number of failed transactions: 0 (0.000%)
+latency average = 2.629 ms
+initial connection time = 28.449 ms
+tps = 3804.001204 (without initial connection time)
+--- room-checklist-update chunk 176 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18648
+number of failed transactions: 0 (0.000%)
+latency average = 2.670 ms
+initial connection time = 28.275 ms
+tps = 3745.771996 (without initial connection time)
+--- room-checklist-update chunk 177 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 14316
+number of failed transactions: 0 (0.000%)
+latency average = 3.477 ms
+initial connection time = 34.177 ms
+tps = 2875.892464 (without initial connection time)
+--- room-checklist-update chunk 178 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15735
+number of failed transactions: 0 (0.000%)
+latency average = 3.168 ms
+initial connection time = 25.700 ms
+tps = 3156.972244 (without initial connection time)
+--- room-checklist-update chunk 179 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 19707
+number of failed transactions: 0 (0.000%)
+latency average = 2.521 ms
+initial connection time = 34.145 ms
+tps = 3966.327576 (without initial connection time)
+--- room-checklist-update chunk 180 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 19406
+number of failed transactions: 0 (0.000%)
+latency average = 2.567 ms
+initial connection time = 29.363 ms
+tps = 3895.208729 (without initial connection time)
+--- room-checklist-update chunk 181 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 11324
+number of failed transactions: 0 (0.000%)
+latency average = 4.838 ms
+initial connection time = 34.319 ms
+tps = 2067.118181 (without initial connection time)
+--- room-checklist-update chunk 182 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 20154
+number of failed transactions: 0 (0.000%)
+latency average = 2.469 ms
+initial connection time = 29.221 ms
+tps = 4050.725519 (without initial connection time)
+--- room-checklist-update chunk 183 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15443
+number of failed transactions: 0 (0.000%)
+latency average = 3.379 ms
+initial connection time = 30.005 ms
+tps = 2959.628846 (without initial connection time)
+--- room-checklist-update chunk 184 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 19428
+number of failed transactions: 0 (0.000%)
+latency average = 2.560 ms
+initial connection time = 30.747 ms
+tps = 3906.957775 (without initial connection time)
+--- room-checklist-update chunk 185 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18003
+number of failed transactions: 0 (0.000%)
+latency average = 2.761 ms
+initial connection time = 34.856 ms
+tps = 3621.794743 (without initial connection time)
+--- room-checklist-update chunk 186 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15382
+number of failed transactions: 0 (0.000%)
+latency average = 3.312 ms
+initial connection time = 31.291 ms
+tps = 3018.932803 (without initial connection time)
+--- room-checklist-update chunk 187 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 19400
+number of failed transactions: 0 (0.000%)
+latency average = 2.566 ms
+initial connection time = 29.871 ms
+tps = 3897.675177 (without initial connection time)
+--- room-checklist-update chunk 188 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 20471
+number of failed transactions: 0 (0.000%)
+latency average = 2.450 ms
+initial connection time = 31.397 ms
+tps = 4080.997972 (without initial connection time)
+--- room-checklist-update chunk 189 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15007
+number of failed transactions: 0 (0.000%)
+latency average = 3.486 ms
+initial connection time = 26.045 ms
+tps = 2868.254480 (without initial connection time)
+--- room-checklist-update chunk 190 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 19396
+number of failed transactions: 0 (0.000%)
+latency average = 2.563 ms
+initial connection time = 31.727 ms
+tps = 3901.398960 (without initial connection time)
+--- room-checklist-update chunk 191 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 19010
+number of failed transactions: 0 (0.000%)
+latency average = 2.616 ms
+initial connection time = 32.582 ms
+tps = 3821.971329 (without initial connection time)
+--- room-checklist-update chunk 192 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15004
+number of failed transactions: 0 (0.000%)
+latency average = 3.324 ms
+initial connection time = 26.836 ms
+tps = 3008.560884 (without initial connection time)
+--- room-checklist-update chunk 193 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 11535
+number of failed transactions: 0 (0.000%)
+latency average = 4.319 ms
+initial connection time = 30.429 ms
+tps = 2315.217633 (without initial connection time)
+--- room-checklist-update chunk 194 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15511
+number of failed transactions: 0 (0.000%)
+latency average = 3.218 ms
+initial connection time = 41.872 ms
+tps = 3107.431672 (without initial connection time)
+--- room-checklist-update chunk 195 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15985
+number of failed transactions: 0 (0.000%)
+latency average = 3.113 ms
+initial connection time = 30.828 ms
+tps = 3212.736627 (without initial connection time)
+--- room-checklist-update chunk 196 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 20404
+number of failed transactions: 0 (0.000%)
+latency average = 2.446 ms
+initial connection time = 24.550 ms
+tps = 4088.676426 (without initial connection time)
+--- room-checklist-update chunk 197 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 19035
+number of failed transactions: 0 (0.000%)
+latency average = 2.617 ms
+initial connection time = 30.475 ms
+tps = 3820.459479 (without initial connection time)
+--- room-checklist-update chunk 198 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 21655
+number of failed transactions: 0 (0.000%)
+latency average = 2.303 ms
+initial connection time = 24.705 ms
+tps = 4343.092908 (without initial connection time)
+--- room-checklist-update chunk 199 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 21097
+number of failed transactions: 0 (0.000%)
+latency average = 2.411 ms
+initial connection time = 39.583 ms
+tps = 4147.594358 (without initial connection time)
+--- room-checklist-update chunk 200 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 14848
+number of failed transactions: 0 (0.000%)
+latency average = 3.753 ms
+initial connection time = 32.195 ms
+tps = 2664.204861 (without initial connection time)
+--- room-checklist-update chunk 201 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 17530
+number of failed transactions: 0 (0.000%)
+latency average = 2.838 ms
+initial connection time = 31.590 ms
+tps = 3523.565680 (without initial connection time)
+--- room-checklist-update chunk 202 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18298
+number of failed transactions: 0 (0.000%)
+latency average = 2.721 ms
+initial connection time = 29.393 ms
+tps = 3675.170226 (without initial connection time)
+--- room-checklist-update chunk 203 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 11490
+number of failed transactions: 0 (0.000%)
+latency average = 4.331 ms
+initial connection time = 33.635 ms
+tps = 2308.860882 (without initial connection time)
+--- room-checklist-update chunk 204 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 12103
+number of failed transactions: 0 (0.000%)
+latency average = 4.296 ms
+initial connection time = 26.797 ms
+tps = 2327.712628 (without initial connection time)
+--- room-checklist-update chunk 205 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 16288
+number of failed transactions: 0 (0.000%)
+latency average = 3.060 ms
+initial connection time = 31.057 ms
+tps = 3268.002051 (without initial connection time)
+--- room-checklist-update chunk 206 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15555
+number of failed transactions: 0 (0.000%)
+latency average = 3.195 ms
+initial connection time = 31.617 ms
+tps = 3129.506021 (without initial connection time)
+--- room-checklist-update chunk 207 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 16221
+number of failed transactions: 0 (0.000%)
+latency average = 3.071 ms
+initial connection time = 29.312 ms
+tps = 3256.350093 (without initial connection time)
+--- room-checklist-update chunk 208 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 13410
+number of failed transactions: 0 (0.000%)
+latency average = 3.709 ms
+initial connection time = 29.045 ms
+tps = 2696.246427 (without initial connection time)
+--- room-checklist-update chunk 209 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 20496
+number of failed transactions: 0 (0.000%)
+latency average = 2.433 ms
+initial connection time = 23.126 ms
+tps = 4109.502523 (without initial connection time)
+--- room-checklist-update chunk 210 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 20322
+number of failed transactions: 0 (0.000%)
+latency average = 2.446 ms
+initial connection time = 33.009 ms
+tps = 4088.894934 (without initial connection time)
+--- room-checklist-update chunk 211 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15509
+number of failed transactions: 0 (0.000%)
+latency average = 3.213 ms
+initial connection time = 33.542 ms
+tps = 3112.310896 (without initial connection time)
+--- room-checklist-update chunk 212 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18882
+number of failed transactions: 0 (0.000%)
+latency average = 2.633 ms
+initial connection time = 30.306 ms
+tps = 3797.523344 (without initial connection time)
+--- room-checklist-update chunk 213 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 14287
+number of failed transactions: 0 (0.000%)
+latency average = 3.729 ms
+initial connection time = 29.812 ms
+tps = 2681.598178 (without initial connection time)
+--- room-checklist-update chunk 214 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 21364
+number of failed transactions: 0 (0.000%)
+latency average = 2.328 ms
+initial connection time = 28.085 ms
+tps = 4295.947424 (without initial connection time)
+--- room-checklist-update chunk 215 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18426
+number of failed transactions: 0 (0.000%)
+latency average = 2.701 ms
+initial connection time = 29.954 ms
+tps = 3702.221333 (without initial connection time)
+--- room-checklist-update chunk 216 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 17333
+number of failed transactions: 0 (0.000%)
+latency average = 2.875 ms
+initial connection time = 28.791 ms
+tps = 3478.832270 (without initial connection time)
+--- room-checklist-update chunk 217 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15835
+number of failed transactions: 0 (0.000%)
+latency average = 3.142 ms
+initial connection time = 30.330 ms
+tps = 3183.099481 (without initial connection time)
+--- room-checklist-update chunk 218 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 20738
+number of failed transactions: 0 (0.000%)
+latency average = 2.401 ms
+initial connection time = 25.502 ms
+tps = 4165.098411 (without initial connection time)
+--- room-checklist-update chunk 219 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18472
+number of failed transactions: 0 (0.000%)
+latency average = 2.697 ms
+initial connection time = 30.641 ms
+tps = 3707.292480 (without initial connection time)
+--- room-checklist-update chunk 220 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 12677
+number of failed transactions: 0 (0.000%)
+latency average = 3.927 ms
+initial connection time = 28.707 ms
+tps = 2546.773892 (without initial connection time)
+--- room-checklist-update chunk 221 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 7548
+number of failed transactions: 0 (0.000%)
+latency average = 6.583 ms
+initial connection time = 34.045 ms
+tps = 1518.992844 (without initial connection time)
+--- room-checklist-update chunk 222 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15635
+number of failed transactions: 0 (0.000%)
+latency average = 3.176 ms
+initial connection time = 39.147 ms
+tps = 3148.728113 (without initial connection time)
+--- room-checklist-update chunk 223 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 10529
+number of failed transactions: 0 (0.000%)
+latency average = 4.723 ms
+initial connection time = 36.700 ms
+tps = 2117.390170 (without initial connection time)
+--- room-checklist-update chunk 224 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 13086
+number of failed transactions: 0 (0.000%)
+latency average = 3.896 ms
+initial connection time = 26.835 ms
+tps = 2566.935300 (without initial connection time)
+--- room-checklist-update chunk 225 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15648
+number of failed transactions: 0 (0.000%)
+latency average = 3.180 ms
+initial connection time = 28.560 ms
+tps = 3144.506217 (without initial connection time)
+--- room-checklist-update chunk 226 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 17645
+number of failed transactions: 0 (0.000%)
+latency average = 2.818 ms
+initial connection time = 30.708 ms
+tps = 3548.248539 (without initial connection time)
+--- room-checklist-update chunk 227 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 13711
+number of failed transactions: 0 (0.000%)
+latency average = 3.858 ms
+initial connection time = 32.676 ms
+tps = 2591.957201 (without initial connection time)
+--- room-checklist-update chunk 228 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 15801
+number of failed transactions: 0 (0.000%)
+latency average = 3.145 ms
+initial connection time = 32.830 ms
+tps = 3179.918676 (without initial connection time)
+--- room-checklist-update chunk 229 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 18102
+number of failed transactions: 0 (0.000%)
+latency average = 2.750 ms
+initial connection time = 28.291 ms
+tps = 3636.559415 (without initial connection time)
+--- room-checklist-update chunk 230 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 16190
+number of failed transactions: 0 (0.000%)
+latency average = 3.072 ms
+initial connection time = 30.752 ms
+tps = 3255.298003 (without initial connection time)
+--- room-checklist-update chunk 231 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 8935
+number of failed transactions: 0 (0.000%)
+latency average = 5.587 ms
+initial connection time = 28.534 ms
+tps = 1789.818606 (without initial connection time)
+--- room-checklist-update chunk 232 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 17976
+number of failed transactions: 0 (0.000%)
+latency average = 2.773 ms
+initial connection time = 32.444 ms
+tps = 3606.062904 (without initial connection time)
+--- room-checklist-update chunk 233 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 19978
+number of failed transactions: 0 (0.000%)
+latency average = 2.504 ms
+initial connection time = 33.137 ms
+tps = 3993.996810 (without initial connection time)
+--- room-checklist-update chunk 234 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 17668
+number of failed transactions: 0 (0.000%)
+latency average = 2.853 ms
+initial connection time = 27.633 ms
+tps = 3505.115330 (without initial connection time)
+--- room-checklist-update chunk 235 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 10990
+number of failed transactions: 0 (0.000%)
+latency average = 4.526 ms
+initial connection time = 31.939 ms
+tps = 2209.598625 (without initial connection time)
+--- room-checklist-update chunk 236 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 19296
+number of failed transactions: 0 (0.000%)
+latency average = 2.579 ms
+initial connection time = 27.682 ms
+tps = 3878.205534 (without initial connection time)
+--- room-checklist-update chunk 237 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 17037
+number of failed transactions: 0 (0.000%)
+latency average = 2.925 ms
+initial connection time = 33.794 ms
+tps = 3418.322909 (without initial connection time)
+--- room-checklist-update chunk 238 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 17217
+number of failed transactions: 0 (0.000%)
+latency average = 2.889 ms
+initial connection time = 30.620 ms
+tps = 3461.541941 (without initial connection time)
+--- room-checklist-update chunk 239 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 16927
+number of failed transactions: 0 (0.000%)
+latency average = 2.937 ms
+initial connection time = 29.932 ms
+tps = 3404.756038 (without initial connection time)
+--- room-checklist-update chunk 240 (5s) ---
+pgbench (18.3 (Homebrew), server 16.13 (Debian 16.13-1.pgdg13+1))
+transaction type: /Users/koungq/IdeaProjects/dorumdorum/db-benchmark/benchmarks/engine/mysql-vs-postgres/scripts/../scenarios/room-checklist-update.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 10
+maximum number of tries: 1
+duration: 5 s
+number of transactions actually processed: 17175
+number of failed transactions: 0 (0.000%)
+latency average = 2.901 ms
+initial connection time = 33.354 ms
+tps = 3446.655209 (without initial connection time)
