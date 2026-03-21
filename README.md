@@ -197,6 +197,95 @@ Grafana 대시보드:
 
 ---
 
+## 현재 결과 분석
+
+아래 결과는 `2026-03-20` 기준 최신 엔진 벤치마크 실행(`run_id` 기준 최신 실행)에서 관찰한 값이다.
+해당 실행은 `TIME_SECONDS=1200`, `WINDOW_SECONDS=5`, `CLIENTS=10` 기준으로 각 시나리오를 **20분씩** 수행했다.
+
+### 1. Read
+
+![Read result](benchmarks/engine/mysql-vs-postgres/results/read_result.png)
+
+| DB | Throughput | Processing Time |
+|----|------------|-----------------|
+| MySQL | 55.09 TPS | 179.83 ms |
+| PostgreSQL | 138.87 TPS | 72.01 ms |
+
+**해석**
+
+- PostgreSQL이 처리량에서 약 `2.5배`, 평균 처리시간에서 약 `60%` 수준으로 우세했다.
+- 현재 Read 시나리오는 단순 정렬 조회가 아니라, **다중 필터로 후보를 좁힌 뒤 남은 인원수로 정렬**하는 형태다.
+- 이 쿼리는 `room + checklist` 조인, 여러 조건 선택도 계산, 정렬이 함께 걸린다.
+- 이런 형태에서는 PostgreSQL이 여러 조건을 좁혀 가는 계획 수립과 실행에서 더 유리하게 작동했고, MySQL은 동일 조건에서 더 적은 TPS와 더 높은 평균 latency를 보였다.
+
+**가설 대조**
+
+- `H1 (조회): PostgreSQL 우세`
+- 현재 결과는 **H1을 지지**한다.
+
+### 2. Insert
+
+![Insert result](benchmarks/engine/mysql-vs-postgres/results/insert_result.png)
+
+| DB | Throughput | Processing Time |
+|----|------------|-----------------|
+| MySQL | 1635.72 TPS | 6.11 ms |
+| PostgreSQL | 2872.84 TPS | 3.48 ms |
+
+**해석**
+
+- PostgreSQL이 처리량과 평균 처리시간 모두에서 더 좋았다.
+- Insert 시나리오는 `room` 1건과 `checklist` 1건을 생성하는 비교적 단순한 쓰기 트랜잭션이다.
+- 원래 가설은 InnoDB의 clustered index가 순차 삽입에서 유리할 것이라고 봤지만, 현재 조건에서는 그 이점보다 PostgreSQL의 실제 실행 경로가 더 효율적으로 나타났다.
+- 특히 현재 워크로드는 대량 배치 삽입이라기보다 짧은 단건 트랜잭션 반복에 가깝기 때문에, MySQL의 물리적 정렬 이점이 기대만큼 크게 드러나지 않았다.
+
+**가설 대조**
+
+- `H3 (생성): MySQL 우세`
+- 현재 결과는 **H3를 지지하지 않는다**.
+
+### 3. Update
+
+![Update result](benchmarks/engine/mysql-vs-postgres/results/update_result.png)
+
+| DB | Throughput | Processing Time |
+|----|------------|-----------------|
+| MySQL | 1174.81 TPS | 8.50 ms |
+| PostgreSQL | 2720.71 TPS | 3.68 ms |
+
+**해석**
+
+- PostgreSQL이 처리량과 평균 처리시간 모두에서 우세했다.
+- 현재 Update 시나리오는 단건 경량 수정이 아니라, `bedtime`, `wake_up`, `cleaning`, `phone_call`, `sleep_light`, `smoking`, `other_notes`, `updated_at`를 함께 바꾸는 **wide-row update**다.
+- 원래는 PostgreSQL의 tuple copy 방식이 row 전체 재기록과 dead tuple 누적으로 더 불리할 것으로 예상했지만, 현재 실험 시간과 데이터 규모에서는 그 누적 불이익보다 PostgreSQL의 실제 update 처리량이 더 좋게 나왔다.
+- 즉, **현재 20분 기준 결과만 놓고 보면** PostgreSQL의 MVCC 오버헤드가 MySQL보다 더 크게 드러나지 않았다.
+
+**가설 대조**
+
+- `H2 (수정): MySQL 우세`
+- 현재 결과는 **H2를 지지하지 않는다**.
+
+### 4. 종합 결론
+
+현재 벤치마크 기준으로는 **PostgreSQL이 DorumDorum 서비스에 더 적합하다**고 보는 것이 합리적이다.
+
+근거는 다음과 같다.
+
+- 서비스 핵심 기능은 **다중 필터 기반 룸메이트 검색**이고, 가장 중요한 Read 시나리오에서 PostgreSQL이 큰 차이로 우세하다.
+- Update 역시 실제 서비스형 wide-row 수정 시나리오로 바꾼 뒤에도 PostgreSQL이 더 높은 처리량과 더 낮은 처리시간을 보였다.
+- Insert는 서비스의 핵심 병목은 아니지만, 현재 측정에서는 PostgreSQL이 여기서도 앞섰다.
+
+따라서 현재 실험 결과를 서비스 선택 관점에서 해석하면:
+
+- **검색 성능이 가장 중요하다면 PostgreSQL이 더 적합하다.**
+- **현재 데이터 구조와 쿼리 패턴에서는 PostgreSQL이 읽기/쓰기 모두 더 안정적인 후보로 보인다.**
+- MySQL이 우세하다는 초기 가설(H2, H3)은 이번 실험 조건에서는 재현되지 않았다.
+
+단, 이 결론은 어디까지나 **현재 인덱스 구성, 현재 시나리오, 현재 동시성(10 clients), 현재 실행 시간(20분)** 기준이다.
+만약 더 장시간의 update-hotspot 시나리오나 더 큰 데이터 규모에서 다시 측정하면 H2의 결론은 달라질 수 있다.
+
+---
+
 ## 관측 메모
 
 - `parallel`은 같은 시간대 Grafana 관측용이다. 최종 절대 비교 수치는 `all` 기준으로 해석하는 편이 낫다.
