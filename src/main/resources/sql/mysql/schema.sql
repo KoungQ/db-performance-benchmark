@@ -5,7 +5,9 @@ CREATE TABLE IF NOT EXISTS room (
     room_status VARCHAR(32) NOT NULL,
     residence_period VARCHAR(32) NOT NULL,
     capacity INT NOT NULL,
-    current_mate_count INT NOT NULL DEFAULT 0
+    current_mate_count INT NOT NULL DEFAULT 0,
+    INDEX idx_room_remaining (capacity DESC, current_mate_count ASC, room_no DESC),
+    INDEX idx_room_status_type (room_status, room_type)
 );
 
 CREATE TABLE IF NOT EXISTS checklist (
@@ -39,34 +41,25 @@ CREATE TABLE IF NOT EXISTS checklist (
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     CONSTRAINT fk_checklist_room FOREIGN KEY (room_no) REFERENCES room (room_no) ON DELETE CASCADE,
-    CONSTRAINT uq_checklist_room_no UNIQUE (room_no)
+    CONSTRAINT uq_checklist_room_no UNIQUE (room_no),
+    INDEX idx_checklist_bedtime (bedtime),
+    INDEX idx_checklist_wake_up (wake_up),
+    INDEX idx_checklist_return_home (return_home),
+    INDEX idx_checklist_return_home_time (return_home_time),
+    INDEX idx_checklist_cleaning (cleaning),
+    INDEX idx_checklist_phone_call (phone_call),
+    INDEX idx_checklist_sleep_light (sleep_light),
+    INDEX idx_checklist_sleep_habit (sleep_habit),
+    INDEX idx_checklist_snoring (snoring),
+    INDEX idx_checklist_shower_time (shower_time),
+    INDEX idx_checklist_eating (eating),
+    INDEX idx_checklist_lights_out (lights_out),
+    INDEX idx_checklist_lights_out_time (lights_out_time),
+    INDEX idx_checklist_home_visit (home_visit),
+    INDEX idx_checklist_smoking (smoking),
+    INDEX idx_checklist_refrigerator (refrigerator),
+    INDEX idx_checklist_updated_at (updated_at DESC)
 );
-
--- Checklist: 필수 항목만 단일 인덱스 (선택 항목은 null 가능해 필터 사용 빈도 낮음)
-CREATE INDEX IF NOT EXISTS idx_checklist_bedtime ON checklist (bedtime);
-CREATE INDEX IF NOT EXISTS idx_checklist_wake_up ON checklist (wake_up);
-CREATE INDEX IF NOT EXISTS idx_checklist_return_home ON checklist (return_home);
-CREATE INDEX IF NOT EXISTS idx_checklist_return_home_time ON checklist (return_home_time);
-CREATE INDEX IF NOT EXISTS idx_checklist_cleaning ON checklist (cleaning);
-CREATE INDEX IF NOT EXISTS idx_checklist_phone_call ON checklist (phone_call);
-CREATE INDEX IF NOT EXISTS idx_checklist_sleep_light ON checklist (sleep_light);
-CREATE INDEX IF NOT EXISTS idx_checklist_sleep_habit ON checklist (sleep_habit);
-CREATE INDEX IF NOT EXISTS idx_checklist_snoring ON checklist (snoring);
-CREATE INDEX IF NOT EXISTS idx_checklist_shower_time ON checklist (shower_time);
-CREATE INDEX IF NOT EXISTS idx_checklist_eating ON checklist (eating);
-CREATE INDEX IF NOT EXISTS idx_checklist_lights_out ON checklist (lights_out);
-CREATE INDEX IF NOT EXISTS idx_checklist_lights_out_time ON checklist (lights_out_time);
-CREATE INDEX IF NOT EXISTS idx_checklist_home_visit ON checklist (home_visit);
-CREATE INDEX IF NOT EXISTS idx_checklist_smoking ON checklist (smoking);
-CREATE INDEX IF NOT EXISTS idx_checklist_refrigerator ON checklist (refrigerator);
--- room-checklist-read: ORDER BY c.updated_at DESC
-CREATE INDEX idx_checklist_updated_at ON checklist (updated_at DESC);
-
--- Room: REMAINING 정렬용 (capacity - current_mate_count DESC, room_no DESC)
-CREATE INDEX IF NOT EXISTS idx_room_remaining ON room (capacity DESC, current_mate_count ASC, room_no DESC);
-
--- Room: room_status, room_type 필터용 (capacity는 idx_room_remaining 선행 컬럼으로 커버)
-CREATE INDEX IF NOT EXISTS idx_room_status_type ON room (room_status, room_type);
 
 CREATE TABLE IF NOT EXISTS bench_chat_message (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,

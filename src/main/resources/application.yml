@@ -12,7 +12,7 @@ spring:
     init:
       mode: always
       encoding: UTF-8
-      continue-on-error: true
+      continue-on-error: false
 
   jpa:
     hibernate:

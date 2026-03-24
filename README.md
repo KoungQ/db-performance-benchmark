@@ -101,6 +101,7 @@ Track 1의 진행 방식은 아래 순서를 따른다.
 | **버퍼/캐시** | innodb_buffer_pool_size=128M | shared_buffers=128MB |
 | **정렬/해시 메모리** | sort_buffer_size=2M | work_mem=2MB |
 | **max_connections** | 300 | 300 |
+| **기본 격리 수준** | READ COMMITTED | READ COMMITTED |
 | **동시 클라이언트** | 10 (CLIENTS) | 10 (CLIENTS) |
 | **컨테이너 메모리** | 1GB | 1GB |
 | **기본 시나리오 duration** | 300초 | 300초 |
@@ -259,9 +260,9 @@ Grafana 대시보드:
 - `run-engine-bench.sh`는 실행 전에 DB 포트 연결과 `room` / `checklist` seed row count를 검증한다.
 - 각 시나리오 종료 후 해당 시나리오 메트릭은 Pushgateway에서 삭제되어, 이전 색상이 다음 시나리오 구간까지 이어지지 않는다.
 
-### 9. API 부하 테스트로 한 번 더 검증
+### 9. API 부하 테스트 검증
 
-엔진 테스트는 DB 자체 특성을 비교하는 데 유리하지만, 실제 서비스 응답 시간에는 애플리케이션 로직, 직렬화, 네트워크, 커넥션 풀, ORM 동작이 함께 반영된다.
+엔진 테스트는 DB 자체 특성을 비교하는 데 유리하지만, 실제 서비스 응답 시간에는 애플리케이션 로직, 직렬화, 네트워크, 커넥션 풀, ORM 동작이 함께 반영된다.  
 따라서 Track 1의 최종 판단은 엔진 테스트만으로 끝내지 않고, **k6 API 부하 테스트로 한 번 더 검증**한다.
 
 이 단계에서는 다음을 확인한다.
@@ -274,48 +275,86 @@ Grafana 대시보드:
 
 | DB | avg | p95 | p99 | failed | throughput |
 |----|-----|-----|-----|--------|------------|
-| MySQL | TBD | TBD | TBD | TBD | TBD |
-| PostgreSQL | TBD | TBD | TBD | TBD | TBD |
+| MySQL | 16.51 ms | 19.25 ms | 22.22 ms | 0% | 39.93 req/s |
+| PostgreSQL | 12.47 ms | 10.17 ms | 13.01 ms | 0% | 39.90 req/s |
 
 검증 포인트:
 
 - 엔진 테스트의 Read 우세가 API 검색 응답 시간에서도 유지되는가
 - 다중 필터 + 정렬 + 페이지네이션이 실제 서비스 레이어에서 어느 정도 증폭되는가
 
+해석:
+
+- 이번 API 레벨 측정에서는 PostgreSQL이 `avg`, `p95`, `p99` 모두 앞섰고, 처리량은 사실상 동일했다.
+- 즉 엔진 테스트에서 보였던 Read 우세 방향이, 최신 k6 결과에서는 API 레벨에서도 같은 방향으로 재현됐다.
+- 요청이 랜덤 필터 + 랜덤 정렬 + 페이지네이션을 포함하는 실제 서비스형 시나리오였다는 점을 감안하면, 이번 결과는 PostgreSQL이 단순 고정 쿼리뿐 아니라 더 다양한 조회 패턴에서도 안정적인 응답 시간을 보였다는 근거로 사용할 수 있다.
+
 #### 2. Write Heavy
 
 | DB | avg | p95 | p99 | failed | throughput |
 |----|-----|-----|-----|--------|------------|
-| MySQL | TBD | TBD | TBD | TBD | TBD |
-| PostgreSQL | TBD | TBD | TBD | TBD | TBD |
+| MySQL | 12.28 ms | 18.87 ms | 22.36 ms | 0% | 266.01 req/s |
+| PostgreSQL | 8.70 ms | 13.99 ms | 17.55 ms | 0% | 274.60 req/s |
 
 검증 포인트:
 
 - 생성 API에서 DB 차이가 실제 애플리케이션 응답 시간 차이로도 이어지는가
 - insert 시나리오의 엔진 비교 결과가 API 레벨에서도 같은 방향을 보이는가
 
+해석:
+
+- PostgreSQL이 평균 응답 시간, `p95`, 처리량에서 모두 앞섰고 실패율도 동일하게 0%였다.
+- 최신 측정에서 `p99`까지 포함해도 PostgreSQL 쪽이 더 낮았고, tail latency에서도 우세가 유지됐다.
+- 즉 엔진 테스트에서 보였던 insert 우세 방향이 API 레벨에서도 그대로 유지됐다.
+- 현재 생성 API는 `room` 1건과 `checklist` 1건을 짧은 트랜잭션으로 처리하므로, 애플리케이션 레이어가 추가되더라도 DB write path 차이가 그대로 드러난 것으로 볼 수 있다.
+
 #### 3. Update Heavy
 
 | DB | avg | p95 | p99 | failed | throughput |
 |----|-----|-----|-----|--------|------------|
-| MySQL | TBD | TBD | TBD | TBD | TBD |
-| PostgreSQL | TBD | TBD | TBD | TBD | TBD |
+| MySQL | 14.12 ms | 20.41 ms | 26.35 ms | 0% | 93.12 req/s |
+| PostgreSQL | 9.85 ms | 14.73 ms | 20.48 ms | 0% | 94.89 req/s |
 
 검증 포인트:
 
 - wide-row update의 엔진 비교 결과가 실제 수정 API에서도 유지되는가
 - 평균값보다 tail latency와 실패율에서 차이가 크게 나는가
 
+해석:
+
+- PostgreSQL이 평균 응답 시간과 `p95` 모두 더 낮았고, 처리량도 소폭 높았다.
+- 최신 측정에서 `p99`까지 포함해도 PostgreSQL 우세가 유지됐다.
+- 즉 wide-row update에서 PostgreSQL이 더 잘 나왔던 엔진 테스트 결과가 API 레벨에서도 같은 방향으로 나타났다.
+- 엔진 테스트에서 확인한 것처럼 PostgreSQL은 실제로 dead tuple을 만들고 HOT update도 쓰지 못했지만, 현재 트래픽과 실행 시간 범위에서는 그 비용보다 처리 경로의 이점이 더 크게 나타난 것으로 해석할 수 있다.
+
 #### 4. API 레벨 종합 판단
 
 | 항목 | 엔진 테스트 결론 | API 부하 테스트 결론 | 최종 판단 |
 |------|------------------|----------------------|-----------|
-| Read | TBD | TBD | TBD |
-| Insert | TBD | TBD | TBD |
-| Update | TBD | TBD | TBD |
+| Read | PostgreSQL 우세 | PostgreSQL 우세 | PostgreSQL 우세 |
+| Insert | PostgreSQL 우세 | PostgreSQL 우세 | PostgreSQL 우세 |
+| Update | PostgreSQL 우세 | PostgreSQL 우세 | PostgreSQL 우세 |
 
 이 표는 엔진 테스트와 k6 API 부하 테스트 결과를 함께 놓고,
 **최종적으로 DorumDorum 서비스에 더 적합한 DB를 판단하는 마지막 검증 단계**로 사용한다.
+
+정리:
+
+- API 부하 테스트 기준으로는 `Insert`, `Update` 모두 PostgreSQL 우세가 다시 확인됐다.
+- `Read`도 최신 API 부하 테스트에서 PostgreSQL 우세가 다시 확인됐다.
+- 따라서 Track 1의 최종 결론은 여전히 **현재 DorumDorum 서비스 요구사항에는 PostgreSQL이 더 적합하다**로 정리할 수 있다.
+- 단, 이번 API 부하 테스트는 반복 횟수를 늘린 통계 실험이 아니라 실제 동작 방향을 확인하는 검증 성격이 강하므로, 수치는 절대값보다 방향성 위주로 해석하는 것이 맞다고 생각한다.
+
+### 10. 테스트 후기
+
+이번 k6 검증을 진행하면서, 엔진 테스트만으로는 보이지 않던 몇 가지 실무적인 차이를 확인할 수 있었다.
+
+- 첫째, DB 엔진 성능 차이가 그대로 API 응답 시간으로 복사되지는 않았다. 특히 `read-heavy`는 엔진 테스트에서는 PostgreSQL 쪽 근거가 더 강했지만, API 레벨에서는 MySQL이 평균 응답 시간과 처리량에서 근소하게 앞서는 구간도 있었다. 즉 실제 서비스에서는 ORM, 직렬화, 커넥션 풀, HTTP 처리 비용이 생각보다 크게 개입한다.
+- 둘째, 반대로 `write-heavy`와 `update-heavy`는 엔진 테스트에서 보였던 방향이 API에서도 비교적 일관되게 유지됐다. 생성과 수정처럼 DB write path 비중이 높은 시나리오는 애플리케이션 레이어가 끼어도 DB 차이가 더 직접적으로 드러난다고 볼 수 있다.
+- 셋째, 관측 환경 자체도 결과 해석에 영향을 줬다. 포트 매핑 오류, Prometheus scrape 포트 불일치, Mongo 연결 설정, MySQL 인덱스 초기화 방식처럼 벤치마크 외부의 설정 문제가 결과를 크게 왜곡할 수 있었다. 실제 비교 이전에 실험 환경을 안정화하는 작업이 선행돼야 한다는 점이 분명했다.
+- 넷째, `read-heavy`는 지표 cardinality가 높아 k6 경고가 발생했다. 이는 페이지 번호와 동적 URL이 메트릭 시계열을 과도하게 늘렸기 때문이며, 향후 장기 테스트에서는 URL grouping이나 `name` 태그 고정이 필요하다.
+
+이번 테스트를 통해 얻은 가장 중요한 교훈은, **엔진 테스트는 원인을 설명하는 데 강하고, k6 API 부하 테스트는 실제 서비스 체감을 확인하는 데 강하다**는 점이다. 따라서 DorumDorum 같은 서비스에서는 둘 중 하나만으로 결론을 내리기보다, 엔진 근거와 API 결과를 함께 놓고 판단하는 방식이 더 설득력 있다.
 
 ---
 

@@ -10,7 +10,7 @@ services:
       MYSQL_PASSWORD: benchmark
     ports:
       - "3307:3306"
-    command: --innodb_buffer_pool_size=128M --sort_buffer_size=2M --max_connections=300
+    command: --innodb_buffer_pool_size=128M --sort_buffer_size=2M --max_connections=300 --transaction-isolation=READ-COMMITTED
     volumes:
       - bench_mysql_data:/var/lib/mysql
     networks:
@@ -32,7 +32,7 @@ services:
       POSTGRES_PASSWORD: benchmark
     ports:
       - "5433:5432"
-    command: postgres -c shared_buffers=128MB -c max_connections=300 -c work_mem=2MB
+    command: postgres -c shared_buffers=128MB -c max_connections=300 -c work_mem=2MB -c "default_transaction_isolation=read committed"
     volumes:
       - bench_postgres_data:/var/lib/postgresql/data
     networks:
@@ -51,11 +51,13 @@ services:
       BENCH_MYSQL_URL: jdbc:mysql://mysql:3306/db_benchmark
       BENCH_MYSQL_USERNAME: benchmark
       BENCH_MYSQL_PASSWORD: benchmark
-      BENCH_MONGO_URI: mongodb://benchmark:benchmark@mongo:27017/db_benchmark
+      BENCH_MONGO_URI: mongodb://benchmark:benchmark@mongo:27017/db_benchmark?authSource=admin
     ports:
-      - "8090:8080"
+      - "8090:8090"
     depends_on:
       mysql:
+        condition: service_healthy
+      mongo:
         condition: service_healthy
     networks:
       - bench-net
@@ -68,11 +70,13 @@ services:
       BENCH_POSTGRES_URL: jdbc:postgresql://postgres:5432/db_benchmark
       BENCH_POSTGRES_USERNAME: benchmark
       BENCH_POSTGRES_PASSWORD: benchmark
-      BENCH_MONGO_URI: mongodb://benchmark:benchmark@mongo:27017/db_benchmark
+      BENCH_MONGO_URI: mongodb://benchmark:benchmark@mongo:27017/db_benchmark?authSource=admin
     ports:
-      - "8091:8080"
+      - "8091:8090"
     depends_on:
       postgres:
+        condition: service_healthy
+      mongo:
         condition: service_healthy
     networks:
       - bench-net
@@ -80,7 +84,6 @@ services:
   mongo:
     image: mongo:7
     container_name: bench-mongo
-    profiles: ["mongo"]
     environment:
       MONGO_INITDB_ROOT_USERNAME: benchmark
       MONGO_INITDB_ROOT_PASSWORD: benchmark
@@ -91,6 +94,11 @@ services:
       - bench_mongo_data:/data/db
     networks:
       - bench-net
+    healthcheck:
+      test: ["CMD-SHELL", "mongosh --quiet --username benchmark --password benchmark --authenticationDatabase admin --eval 'db.adminCommand({ ping: 1 }).ok' | grep 1"]
+      interval: 5s
+      timeout: 10s
+      retries: 20
 
   mysqld-exporter:
     image: prom/mysqld-exporter:v0.17.2
@@ -121,13 +129,13 @@ services:
   mongodb-exporter:
     image: percona/mongodb_exporter:0.40
     container_name: bench-mongodb-exporter
-    profiles: ["mongo"]
     command:
-      - --mongodb.uri=mongodb://benchmark:benchmark@mongo:27017/admin
+      - --mongodb.uri=mongodb://benchmark:benchmark@mongo:27017/admin?authSource=admin
     ports:
       - "9216:9216"
     depends_on:
-      - mongo
+      mongo:
+        condition: service_healthy
     networks:
       - bench-net
 

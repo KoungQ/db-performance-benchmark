@@ -23,7 +23,7 @@ case "${TARGET}" in
 esac
 
 case "${SCENARIO}" in
-  read-heavy|write-heavy|update-heavy)
+  read-heavy|write-heavy|update-heavy|mixed-workload|soak-test)
     ;;
   *)
     echo "Unsupported scenario: ${SCENARIO}"
@@ -51,7 +51,9 @@ for run in $(seq 1 "${REPEAT}"); do
   echo ""
 
   BASE_URL="${BASE_URL}" \
+  SOAK_DURATION="${SOAK_DURATION:-60m}" \
   k6 run \
+    --summary-trend-stats "avg,min,med,max,p(90),p(95),p(99)" \
     --summary-export "${summary_file}" \
     "${ROOT_DIR}/k6/mysql-vs-postgres/scenarios/${SCENARIO}.js"
 done

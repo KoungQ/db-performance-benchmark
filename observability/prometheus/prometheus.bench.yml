@@ -6,14 +6,14 @@ scrape_configs:
   - job_name: db-benchmark-app-mysql
     metrics_path: /actuator/prometheus
     static_configs:
-      - targets: ["app-mysql:8080"]
+      - targets: ["app-mysql:8090"]
         labels:
           database: mysql
 
   - job_name: db-benchmark-app-postgres
     metrics_path: /actuator/prometheus
     static_configs:
-      - targets: ["app-postgres:8080"]
+      - targets: ["app-postgres:8090"]
         labels:
           database: postgres
 

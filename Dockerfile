@@ -9,7 +9,7 @@ COPY src src
 
 RUN chmod +x ./gradlew && ./gradlew bootJar --no-daemon
 
-FROM eclipse-temurin:17-jre-alpine
+FROM eclipse-temurin:17-jre
 
 WORKDIR /app
 
