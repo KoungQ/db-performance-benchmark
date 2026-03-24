@@ -23,7 +23,7 @@ case "${TARGET}" in
 esac
 
 case "${SCENARIO}" in
-  read-heavy|write-heavy|update-heavy|mixed-workload|soak-test)
+  read-heavy|write-heavy|update-heavy)
     ;;
   *)
     echo "Unsupported scenario: ${SCENARIO}"
